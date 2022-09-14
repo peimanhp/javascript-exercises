@@ -9,7 +9,7 @@ function repeatString(string, num) {
   } else if (num > 0) {
     words = string;
     for (let i = 0; i < num - 1; i++) {
-      words = words + string;
+      words += string;
     }
   }
   return words;
