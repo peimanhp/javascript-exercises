@@ -1,11 +1,9 @@
-function ftoc(_degree) {
-  let degree = _degree;
+function ftoc(degree) {
   let converted = (degree - 32) * 5 / 9;
   return Math.round(converted * 10) / 10;
 }
 
-function ctof(_degree) {
-  let degree = _degree;
+function ctof(degree) {
   let converted = (degree * 9 / 5) + 32;
   return Math.round(converted * 10) / 10;
 }
