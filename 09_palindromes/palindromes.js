@@ -1,6 +1,6 @@
 const palindromes = function (_words) {
   let words = _words.replace(/[.,\/#!?$%\^&\*;:{}=\-_`~()]/g, ""); // removes punctuation from string
-  let arrayWords = words.split(" "); // splites words and return array of it
+  let arrayWords = words.split(" "); // splites words and return array
   let lastWord = arrayWords[arrayWords.length - 1].toLowerCase();
   let noSpacesWords = words.replace(/\s+/g, "").toLowerCase(); // removes space from original string
   let reverseWord = "";
